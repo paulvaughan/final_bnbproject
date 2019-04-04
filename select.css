@@ -1,11 +1,24 @@
-#typefood {
+#cuisineOptions {
     font-family: 'News Cycle', sans-serif;
-    font-weight: 200;
-    font-size: 20px; 
-    color:black;
-    text-align: center;
+    /* font-weight: lighter; */
+    font-size: 40px; 
+    color: white;
+    /* background-size: cover; */
+    padding: 8em;
+    background-image: url(./assets/avocados.jpg);
 }
 
-.div01{
-    background-color: transparent;
+#imageContainer {
+    background-color:#191722;
+    padding: 5em;
+}
+
+body {
+    background: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    padding: 0;
 }
