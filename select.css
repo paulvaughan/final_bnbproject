@@ -8,12 +8,17 @@
     background-image: url(./assets/avocados.jpg);
 }
 
+form {
+    text-align: center;
+}
+
 #imageContainer {
-    background-color:#191722;
+    /* background-color:#191722; */
     padding: 5em;
 }
 
 body {
+    background-color: black;
     background: cover;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
