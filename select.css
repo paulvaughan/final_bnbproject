@@ -6,10 +6,11 @@
     /* background-size: cover; */
     padding: 8em;
     background-image: url(./assets/avocados.jpg);
+    text-align:left;
 }
 
 form {
-    text-align: center;
+    text-align: left;
 }
 
 #imageContainer {
@@ -24,6 +25,8 @@ body {
     font-weight: 300;
 }
 
-h2{
+#cuisineOptions h2{
     padding: 0;
+    text-align: left;
 }
+
