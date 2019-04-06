@@ -5,40 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bites'n Bethesda</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=News+Cycle|Open+Sans+Condensed:300|Roboto+Condensed|Satisfy|Yanone+Kaffeesatz" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="select.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
 </head>
 <body>
-    <div class="div01">
-        <div id="typefood">
-        <H2>What do you want today?</H2>
+    <header>
+        <div class="container">
+                <img src="./assets/bb_final_logo1.png" alt="BB Logo" id="logo">
+                    <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="./select.html">SELECTION</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </nav>             
+            </div>
+            </header>
+    <div id="cuisineOptions">
+        <h2>What are you craving today?</h2>
 
         <form action="">
-                <input type="radio" name="resto" value="Italian"> Italian
-                <input type="radio" name="resto" value="Spanish"> Spanish
-                <input type="radio" name="resto" value="Asian"> Asian
-                <input type="radio" name="resto" value="French"> French
+                <input type="radio" name="rest" value="Italian"> Italian
+                <input type="radio" name="rest" value="Spanish"> Spanish
+                <input type="radio" name="rest" value="Asian"> Asian
+                <input type="radio" name="rest" value="French"> French
         </form>
-        </div>
+        
     </div>
 
-    <div id="div02">
-        <h2>Restaurant Features</h2>
+    <div id="imageContainer">
+        <h2>Click your Restaurant Option</h2>
 
-        <form action="">
-                <input type="radio" name="wifi" value="WiFi"> Wi-Fi
-                <input type="radio" name="familyfriendly" value="FamFriendly"> Family Friendly
-                <input type="radio" name="coffee" value="Coffee"> Coffee
-                <input type="radio" name="pet friendly" value="Pet Friendly"> Pet Friendly
-        </form>
+        <video control loop autoplay width="1250" height="380">
+            <source src="./assets/bethview_trim.mp4" frameborder="0" allowfullscreen>
+        </video>
     </div>
-
-    <div id="div03">
-        <a href=''>
-            <button type="button">Begin Hunt</button>
-        </a>
-    </div>
-
+       
+    
 <script src="main.js"></script>
+
 </body>
 </html> 
+
