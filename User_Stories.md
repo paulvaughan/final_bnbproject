@@ -34,7 +34,7 @@ The application will launch on a main page `index.html`. It includes an `about` 
 
 The selection page will utilize a `div` with radial selections or `field sets` of cuisine options.~~It will then have a second `div` of *features*.~~ The users selections will be held in local storage by collecting each click with an `eventListener`. The even listener initiates a pull from an array of restaurants to display *three (3) logo* `images` (_based on the user's cuisine selection_) on the `select.html` page. A user selection of any one of the three image options will `display a result` of the restaurant image on the `result.html` page.
 
-An embedded`video banner` will also be displayed on the `select.html` using *HTML code*` to give the user an area overview of the Bethesda area. The Video will be _load and run automatically_ *on loop*. Finally, the application will reference the *nearest three (3) parking location(s)* by `name` and `address`. A `link tag` snippet from _Google maps_ will be embedded for visual illustration - activated by a `hover feature`.
+An embedded`video banner` will also be displayed on the `select.html` using *HTML code*` to give the user an area overview of the Bethesda area. The Video will be _load and run automatically_ *on loop*. Finally, the application will reference the *nearest parking location(s)*. A `link tag` snippet from _Google maps_ will be embedded for visual illustration - activated by a `hover feature` (_Should be coded using HTML_).
 
 ## Project Timeline
 
