@@ -54,7 +54,7 @@ video:hover, video:focus{
     transform: scale(1.14)
 }
 
-#select-message h2 {
+h2 {
     display: inline-block;
     margin-left: 15px;
     font-family: 'Open Sans Condensed', Times, serif;
