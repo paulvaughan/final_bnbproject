@@ -1,0 +1,34 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1471967183320-ee018f6e114a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80);
+  background-size: cover;
+  /* background-image: url(https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) */
+}
+
+.container {
+  font-family: 'Open Sans Condensed'
+}
+
+#restaurant-name {
+  text-align: center;
+  font-family: 'Roboto Condensed';
+}
+
+#result-image {
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#result-image img{
+border: 2px solid slategray;
+height:400px;
+width: 50%;
+padding: 1px;
+}
+
+h2 {
+  display: block;
+  color: blue;
+  font-family: 'Poiret One', cursive;
+}

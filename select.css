@@ -1,3 +1,13 @@
+body {
+    /* background-color: black; */
+    /* background-image: url(https://images.unsplash.com/photo-1534528770941-33118ceae543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80); */
+    background-image: url(https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    backdrop-filter: brightness(10%);
+    font-family: 'Open Sans Condensed', cursive;
+    font-weight: 300;
+}
+
 #cuisineOptions {
     font-family: 'Poiret One', cursive;
     font-size: 33px; 
@@ -7,39 +17,39 @@
     text-align: center;
 }
 
-#cuisineOptions>h2 {
-    align-content: center;
-    font-family: 'Open Sans Condensed', Times, serif;
-    font-size: 55px;
-}
-
 form {
     text-align: center;
 }
 
-#imageContainer > h2 {
-    font-family: 'Poiret One', cursive;
-    padding-top: 40px;
-    /* border: 6px solid greenyellow */
-}
-
 #imageContainer {
-    padding-top: 20px;
+    padding-top: 10px;
     align-content: center;
-    padding-bottom: 18px;
     /* border: 9px solid purple; */
 }
+
+ #imageContainer img {
+    /* border: 1px solid whitesmoke; */
+    padding: 5px 5px;
+    transition: transform .2s;
+  height: auto;
+  max-width: 20%;
+  border: 2px solid slategray;
+  margin: 1.5em;
+}
+
+#imageContainer img:hover{
+    transform: scale(1.16);
+    -webkit-transform: scale(1.16);
+    -ms-transform: scale(1.16);
+  }
 
 /* video, source {
     border: 6px solid orange;
 } */
 
-body {
-    /* background-color: black; */
-    /* background-image: url(https://images.unsplash.com/photo-1534528770941-33118ceae543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80); */
-    background-image: url(https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    background-size: cover;
-    backdrop-filter: brightness(10%);
-    font-family: 'Open Sans Condensed', cursive;
-    font-weight: 300;
+#select-message h2 {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Open Sans Condensed', Times, serif;
+    font-size: 55px;
 }
