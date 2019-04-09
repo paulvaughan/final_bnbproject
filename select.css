@@ -35,21 +35,28 @@ form {
   max-width: 20%;
   border: 2px solid slategray;
   margin: 1.5em;
+  transition: all 0.5s ease-in-out;
 }
 
-#imageContainer img:hover{
+#imageContainer img:hover, img:focus{
     transform: scale(1.16);
     -webkit-transform: scale(1.16);
     -ms-transform: scale(1.16);
   }
 
-/* video, source {
-    border: 6px solid orange;
-} */
+video {
+    border: 1.5px solid grey;
+    transition: all 1.2s ease-in-out;
+    margin-left: 50px;
+}
+
+video:hover, video:focus{
+    transform: scale(1.14)
+}
 
 #select-message h2 {
     display: inline-block;
-    text-align: left;
+    margin-left: 15px;
     font-family: 'Open Sans Condensed', Times, serif;
-    font-size: 55px;
+    font-size: 50px;
 }

@@ -54,7 +54,7 @@ function restaurantSelector(clickedElements, restaurants) {
   }
 }
 
-//Display logo images basaed on cuisine category selected
+//Display logo images based on cuisine category selected
 function displayLogoImage(restaurants, val) {
   for (restaurant of restaurants){
     let logo = document.createElement('img')
@@ -63,8 +63,13 @@ function displayLogoImage(restaurants, val) {
       logo.src = restaurant.logoPath
       elImageContainer.appendChild(logo)
     }
-  } 
+  }
+  let displayInstructions = document.getElementById('select-image') //logo object for instructions
+  //Create values for established DOM element with instructions
+    //Display instructions for logo selection
+    displayInstructions.innerText = `Select your desired dining option` 
 }
+
 
 //Track logo selection and house in local storage for processing
 function clickedRestaurantLogo(restaurants, logoArrays) {
