@@ -64,12 +64,11 @@ function displayLogoImage(restaurants, val) {
       elImageContainer.appendChild(logo)
     }
   }
-  let displayInstructions = document.getElementById('select-image') //logo object for instructions
+  let displayInstructions = document.getElementById('select-message')
   //Create values for established DOM element with instructions
     //Display instructions for logo selection
-    displayInstructions.innerText = `Select your desired dining option` 
+    displayInstructions.innerText = ('Select your desired dining option')
 }
-
 
 //Track logo selection and house in local storage for processing
 function clickedRestaurantLogo(restaurants, logoArrays) {

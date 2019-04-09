@@ -19,6 +19,7 @@ body {
   text-align: center;
   font-family: 'Yesteryear';
   font-size: 75px;
+  font-weight: lighter;
   padding: 170px 20px 20px
 }
 
@@ -40,16 +41,16 @@ transition: all 1.5s ease-in-out;
 }
 
 #result-image img:hover, img:focus{
-  transform: scale(1.28);
+  transform: scale(1.27);
 }
 
 h2 {
   position: absolute;
   bottom: -300px;
-  float: left;
+  margin-left: 10px;
   font-size: 40px;
   color: whitesmoke;
-  margin-left: 10px;
+  float: left;
   font-family: 'Yesteryear';
 }
 
