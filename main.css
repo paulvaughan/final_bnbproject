@@ -37,7 +37,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 3em;
-    padding-top: 10%;
+    padding-top: 7%;
 }
 
 nav a {
@@ -47,12 +47,17 @@ nav a {
     font-size: 25px;
 }
 
+nav a:hover {
+    border-top: 2px solid white;
+    transition: all ease-in-out 250ms;
+}
+
 h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 45px;
     color: #f1bb17;
     font-weight: 600;
-    padding-top: 6em;
+    /* padding-top: 6em; */
 }
 
 h2 {
@@ -71,9 +76,13 @@ p {
 }
 
 #div01 {
-    background-size: cover;
-    padding: 25%;
-    background-image: url(./assets/dinning_1_edited.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    padding-bottom: 20%;
+    padding-top: 13%;
+    padding-left:63%; 
+    background-image: url(./assets/dinning_1_edited_1422x696.jpg);
 }
 
 #div02 {
