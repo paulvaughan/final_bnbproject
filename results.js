@@ -11,19 +11,20 @@ function selectedRestaurant(restaurant){
   let restaurantDiv = document.getElementById('result-image')
   let restaurantName = document.getElementById('restaurant-name')
   let restaurantImage = document.createElement('img')
-  let restaurantId = document.createElement('span')
+  let restaurantId = document.createElement('span') 
 
 //Creating values for the established DOM elements
   //Display restaurant name
-  restaurantName.innerText = `Your restaurant selection is: ${restaurant.name}`
+  restaurantName.innerText = `Your restaurant selection is: ${restaurant.id}` //changed to ID to facilitate suitable naming convention
+
   //Display restaurant image
   restaurantImage.src = restaurant.restPath
   //Display restaurant ID
-  restaurantId.innerText = restaurant.id
+  restaurantId.innerText = restaurant.id 
 
   //Appending the restaurant image
   restaurantDiv.appendChild(restaurantImage)
   //Appending the restaurant ID
-  restaurantDiv.appendChild(restaurantId)
+  // restaurantDiv.appendChild(restaurantId) -Code deactivated to disrupt display of ID
 }
 getDataFromLocalStorage()
