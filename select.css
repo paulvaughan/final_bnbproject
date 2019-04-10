@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #cuisineOptions {
     font-family: 'News Cycle', sans-serif;
     /* font-weight: lighter; */
@@ -30,3 +31,67 @@ body {
     text-align: left;
 }
 
+=======
+body {
+    /* background-color: black; */
+    /* background-image: url(https://images.unsplash.com/photo-1534528770941-33118ceae543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80); */
+    background-image: url("./assets/hamburger_select_edited.jpg");
+    background-size: cover;
+    backdrop-filter: brightness(10%);
+    font-family: 'Open Sans Condensed', cursive;
+    font-weight: 300;
+}
+
+#cuisineOptions {
+    font-family: 'Poiret One', cursive;
+    font-size: 33px; 
+    color: white;
+    padding: 6rem;
+    font-weight: 250;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#imageContainer {
+    padding-top: 10px;
+    align-content: center;
+    /* border: 9px solid purple; */
+}
+
+ #imageContainer img {
+    /* border: 1px solid whitesmoke; */
+    padding: 5px 5px;
+    transition: transform .2s;
+  height: auto;
+  max-width: 20%;
+  border: 2px solid slategray;
+  margin: 1.5em;
+  transition: all 0.5s ease-in-out;
+}
+
+#imageContainer img:hover, img:focus{
+    transform: scale(1.16);
+    -webkit-transform: scale(1.16);
+    -ms-transform: scale(1.16);
+  }
+
+video {
+    border: 1.5px solid grey;
+    transition: all 1.2s ease-in-out;
+    margin-left: 50px;
+}
+
+video:hover, video:focus{
+    transform: scale(1.14)
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 15px;
+    font-family: 'Open Sans Condensed', Times, serif;
+    font-size: 50px;
+}
+>>>>>>> html-content

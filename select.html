@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bites'n Bethesda</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=News+Cycle|Open+Sans+Condensed:300|Roboto+Condensed|Satisfy|Yanone+Kaffeesatz" rel="stylesheet">
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" media="screen" href="select.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+=======
+    <link rel="stylesheet" type="text/css" media="screen" href="./select.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css"> 
+    <!-- is link to main.css needed? -->
+>>>>>>> html-content
 </head>
 <body>
     <header>
         <div class="container">
+<<<<<<< HEAD
             <a href="./index.html">
             <img src="./assets/bb_final_logo1.png" alt="BB Logo" id="logo">
             </a>
@@ -34,10 +42,31 @@
                 <input type="radio" name="rest" value="Spanish"> Spanish
                 <input type="radio" name="rest" value="Asian"> Asian
                 <input type="radio" name="rest" value="French"> French
+=======
+                <img src="./assets/bb_final_logo1.png" alt="BB Logo" id="logo">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">HOME</a></li>
+                            <li><a href="./select.html">SELECTION</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                        </ul>
+                    </nav>             
+            </div>
+    </header>
+    <div id="cuisineOptions">
+        <h2>What are you craving today?</h2>
+
+        <form id="restSeclectorForm">
+                <input type="radio" name="rest" value="italian"> Italian
+                <input type="radio" name="rest" value="spanish"> Spanish
+                <input type="radio" name="rest" value="asian"> Asian
+                <input type="radio" name="rest" value="french"> French
+>>>>>>> html-content
         </form>
         
     </div>
 
+<<<<<<< HEAD
     <div id="imageContainer">
         <h2>Click your Restaurant Option</h2>
     </div>
@@ -63,5 +92,19 @@
 
 <script src="main.js"></script>
 <script src="select.js"></script>
+=======
+    <h2 id="select-message"></h2>
+    <!-- display using DOM -->    
+    <div id="imageContainer">
+        <video control loop autoplay width="550" height="330" type="video/mp4">
+            <source src="./assets/bethview_trim.mp4" frameborder="0" allowfullscreen>
+        </video>
+       
+    </div>
+             
+<script src="./select.js"></script>
+
+>>>>>>> html-content
 </body>
 </html> 
+
