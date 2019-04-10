@@ -4,7 +4,7 @@
 
 ### User Stories
 
-Maslow's Hierachy of Needs lists **food** as one of the basic physiological necessities of life. When the call of nature beckons and hunger strikes, no one wants to be faced with the undaunting task of figuring out _where to eat_. Working through the logistics of satisfying one's hunger is difficult. As modern day _Hunter Gatherers_ this can be further complicated when you have a various palettes to satisfy; i.e. a **family, or a large group of friends**.
+Maslow's Hierachy of Needs lists **food** as one of the basic physiological necessities of life. When the call of nature beckons and hunger strikes, no one wants to be faced with the undaunting task of figuring out _where to eat_. Working through the logistics of satisfying one's hunger is difficult. As modern day _Hunter Gatherers_ this can be further complicated when you have various palettes to satisfy; i.e. a **family, or a large group of friends**.
 
 This is where Bites'N Bethesda comes in... let's be honest; sometimes deciding where to eat can be hard. We won't promise to eliminate all the uncertainties, but our solutions are designed to make your _"Hunt"_ a little bit simplier.
 
@@ -23,8 +23,6 @@ To create this _"dine-out selection"_ application we enlisted a team of talented
 - `Developers`: a development team was tasked with the challenge of bringing **Bites'N Bethesda** to life. They are the _brains_ behind the `technical requirements` and innovations of the application.
 
 ## Technical Requirements:
-
-~~Once the `marketing team` submits the results from their analysis the `videographers` captured the _"best views"_ of each restaurant.~~
 
 `UX/UI Designers` generated wireframmed sketches and details which guided the development team's formulation of `technical requirements` for the project (_see attached sketches and notes in the project assets folder_).
 
