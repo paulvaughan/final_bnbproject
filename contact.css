@@ -14,6 +14,11 @@
     color: white;
 }
 
+input {
+    width: 200;
+    height: 30;
+}
+
 h1 {
     font-size: 75px;
 }

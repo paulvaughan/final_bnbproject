@@ -52,6 +52,24 @@ nav a:hover {
     transition: all ease-in-out 250ms;
 }
 
+@media all and (max-width : 700px) {
+    nav li {
+        display:block;
+        float: none;
+        padding-top: .5%;
+        /* display: inline-block; */
+    } 
+    nav a {
+        font-size: 10px;
+    }
+    img { 
+        display: block;
+        float: left;
+        width: 20%;
+        padding: 15px 50px;
+    }
+}
+
 h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 45px;
@@ -105,6 +123,25 @@ p {
     background-image: url(./assets/dinning_1_edited_1422x696.jpg);
 }
 
+@media all and (max-width : 700px) {
+    #div01 {
+        background-position: cover;
+        background-size: 100%;
+        padding-right: 63%;
+        padding-left: 10%;
+        /* background-attachment: */
+    }
+
+    h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    color: #f1bb17;
+    font-weight: 600;
+    /* padding-top: 6em; */
+
+    }
+}
+
 #div02 {
     padding: 2em 1.5em;
     text-align: center;
@@ -147,6 +184,8 @@ p {
       text-align: center;
       margin-top: 0;
   }
+
+ 
 
 /* .button1 {
     background-color:transparent; 
